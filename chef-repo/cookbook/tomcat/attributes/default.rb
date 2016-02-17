@@ -1,4 +1,5 @@
-default['tomcat'].tap do | tomcat |
+#pankaj explore
+ default['tomcat'].tap do | tomcat |
 		#Installation Location Settings goes here:
 		tomcat['home_dir'] = '/opt/softwares/tomcat'
 		tomcat['log_dir'] = '/opt/softwares/logs'
